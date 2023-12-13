@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './store';
-import CovidInfo from './CovidInfo';
+import store from '../src/store';
+import CovidInfo from './components/CovidInfo';
 
 const App = () => {
   return (
